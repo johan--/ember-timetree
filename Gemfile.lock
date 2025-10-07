@@ -6,10 +6,8 @@ GIT
   specs:
     ember-dev (0.1)
       colored
-      ember-source
       execjs
       grit
-      handlebars-source
       kicker
       rack
       rake-pipeline (~> 0.8.0)
@@ -30,15 +28,12 @@ GEM
   specs:
     colored (1.2)
     diff-lcs (1.2.1)
-    ember-source (0.0.1)
-      handlebars-source (>= 1.0.0.rc3, < 1.0.0.rc4)
     execjs (1.4.0)
       multi_json (~> 1.0)
     grit (2.5.0)
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
       posix-spawn (~> 0.3.6)
-    handlebars-source (1.0.0.rc.3)
     json (1.7.6)
     kicker (2.6.1)
       listen
@@ -46,7 +41,7 @@ GEM
     mime-types (1.21)
     multi_json (1.7.0)
     posix-spawn (0.3.6)
-    rack (1.5.2)
+    rack (2.2.19)
     rake (10.0.3)
     rake-pipeline-web-filters (0.7.0)
       rack
